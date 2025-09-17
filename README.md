@@ -18,18 +18,26 @@ A Python-based project that predicts the sentiment of product reviews (positive,
 
 SentimentAnalysis-ML/
 ├── src/
+
 │ ├── preprocess.py
+
 │ ├── train_model.py
+
 │ ├── predict.py
+
 │ ├── predict_gui.py
+
 │ └── init.py
+
 ├── data/ # Dataset of product reviews
+
 ├── models/ # Trained ML model (sentiment_model.pkl)
+
 ├── requirements.txt
+
 └── README.md
 
-yaml
-Copy code
+
 
 ---
 
@@ -42,18 +50,15 @@ git clone https://github.com/YourUsername/SentimentAnalysis-ML.git
 cd SentimentAnalysis-ML
 Install dependencies:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Train the model (optional if you already have sentiment_model.pkl):
 
-bash
-Copy code
+
 python src/train_model.py
 Run the GUI:
 
-bash
-Copy code
+
 python src/predict_gui.py
 Enter one or more reviews in the top box (one per line).
 
