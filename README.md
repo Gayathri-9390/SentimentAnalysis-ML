@@ -44,17 +44,20 @@ SentimentAnalysis-ML/
 ## ⚡ Setup Instructions
 
 ### 📂 Clone the repository:
-```bash
-git clone https://github.com/YourUsername/SentimentAnalysis-ML.git
+
+git clone https://github.com/Gayathri-9390/SentimentAnalysis-ML.git
 cd SentimentAnalysis-ML
----
+
+
 📦 Install dependencies:
  
 pip install -r requirements.txt
+
 🏋️ Train the model (optional if you already have sentiment_model.pkl):
 
 python src/train_model.py
----
+
+
 🖥️ Run the GUI:
 
 python src/predict_gui.py
@@ -66,8 +69,12 @@ View predictions in the bottom box.
 
 Click Save Predictions to save results to predictions.csv.
 
+---
+
 📸 Screenshots
 (Optional: Add a screenshot of your GUI here to showcase your interface)
+
+---
 
 🖱️ Usage Example (CLI)
 
@@ -75,6 +82,8 @@ python src/predict.py
 Type reviews interactively.
 
 Get immediate sentiment prediction.
+
+---
 
 🛠️ Technologies Used
 🐍 Python 3.x
@@ -84,6 +93,8 @@ Get immediate sentiment prediction.
 🖼️ Tkinter (GUI)
 
 📊 Pandas / CSV for data handling
+
+---
 
 🚀 Future Work
 📈 Expand dataset – Include more product reviews to improve model accuracy.
@@ -98,12 +109,16 @@ Get immediate sentiment prediction.
 
 💻 Web version – Deploy the project as a web app for wider accessibility.
 
+---
+
 📝 Notes
 The model can be improved by adding more labeled reviews.
 
 Short reviews like "good" or "bad" are handled via keyword matching.
 
 The GUI is designed to be user-friendly with colors, fonts, and save functionality.
+
+---
 
 📄 License
 This project is open-source and free to use.
