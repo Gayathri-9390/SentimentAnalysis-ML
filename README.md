@@ -17,6 +17,7 @@ A Python-based project that predicts the sentiment of product reviews (positive,
 ## 📂 Project Structure
 
 SentimentAnalysis-ML/
+
 ├── src/
 
 │ ├── preprocess.py
