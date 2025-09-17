@@ -17,6 +17,7 @@ A Python-based project that predicts the sentiment of product reviews (positive,
 ## **Project Structure**
 
 SentimentAnalysis-ML/
+
 ├── src/
 
 │ ├── preprocess.py
@@ -41,24 +42,29 @@ SentimentAnalysis-ML/
 
 ---
 
-## **Setup Instructions**
+# Sentiment Analysis on Product Reviews
 
-1. **Clone the repository:**
+A Python-based project that predicts the sentiment of product reviews (positive, negative, or neutral) using Machine Learning. The project includes both a **GUI** and **CLI** interface for interactive sentiment prediction.
 
+---
+
+## Setup Instructions
+
+### Clone the repository:
 ```bash
 git clone https://github.com/YourUsername/SentimentAnalysis-ML.git
 cd SentimentAnalysis-ML
 Install dependencies:
-
-
+bash
+Copy code
 pip install -r requirements.txt
 Train the model (optional if you already have sentiment_model.pkl):
-
-
+bash
+Copy code
 python src/train_model.py
 Run the GUI:
-
-
+bash
+Copy code
 python src/predict_gui.py
 Enter one or more reviews in the top box (one per line).
 
@@ -110,3 +116,6 @@ The GUI is designed to be user-friendly with colors, fonts, and save functionali
 
 License
 This project is open-source and free to use.
+
+yaml
+Copy code
