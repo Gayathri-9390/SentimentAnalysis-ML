@@ -47,14 +47,14 @@ SentimentAnalysis-ML/
 ```bash
 git clone https://github.com/YourUsername/SentimentAnalysis-ML.git
 cd SentimentAnalysis-ML
-
+---
 📦 Install dependencies:
  
 pip install -r requirements.txt
 🏋️ Train the model (optional if you already have sentiment_model.pkl):
 
 python src/train_model.py
-
+---
 🖥️ Run the GUI:
 
 python src/predict_gui.py
