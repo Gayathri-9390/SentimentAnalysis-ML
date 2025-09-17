@@ -71,12 +71,13 @@ Click Save Predictions to save results to predictions.csv.
 
 ---
 
-📸 Screenshots
+📸 Screenshots:
+
 (Optional: Add a screenshot of your GUI here to showcase your interface)
 
 ---
 
-🖱️ Usage Example (CLI)
+🖱️ Usage Example (CLI):
 
 python src/predict.py
 Type reviews interactively.
@@ -85,7 +86,8 @@ Get immediate sentiment prediction.
 
 ---
 
-🛠️ Technologies Used
+🛠️ Technologies Used:
+
 🐍 Python 3.x
 
 🤖 Scikit-learn (Machine Learning)
@@ -96,7 +98,8 @@ Get immediate sentiment prediction.
 
 ---
 
-🚀 Future Work
+🚀 Future Work:
+
 📈 Expand dataset – Include more product reviews to improve model accuracy.
 
 ⚡ Advanced models – Experiment with other ML algorithms (Naive Bayes, SVM, or deep learning models) for better predictions.
@@ -111,7 +114,8 @@ Get immediate sentiment prediction.
 
 ---
 
-📝 Notes
+📝 Notes:
+
 The model can be improved by adding more labeled reviews.
 
 Short reviews like "good" or "bad" are handled via keyword matching.
@@ -120,5 +124,6 @@ The GUI is designed to be user-friendly with colors, fonts, and save functionali
 
 ---
 
-📄 License
+📄 License:
+
 This project is open-source and free to use.
